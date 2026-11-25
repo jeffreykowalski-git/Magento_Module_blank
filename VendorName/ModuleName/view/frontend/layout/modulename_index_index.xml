@@ -4,6 +4,9 @@
     <body>
         <referenceContainer name="content">
             <block name="vendorname_modulename_welcome" template="VendorName_ModuleName::welcome.phtml">
+                <arguments>
+                    <argument name="welcome_message_view_model" xsi:type="object">VendorName\ModuleName\ViewModel\WelcomeMessage</argument>
+                </arguments> 
             </block>
         </referenceContainer>
     </body>
